@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -24,6 +24,59 @@
 
 .App-link {
   color: rgb(112, 76, 182);
+}
+
+.Welcome_txt {
+  font-size: 30px;
+  font-family: unset;
+  color: gray;
+}
+
+.Welcome_btn {
+  padding: 15px 85px;
+  border: 1px solid grey;
+  background-color: transparent;
+  color: grey;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.form_container {
+  background-color: rgb(141, 141, 159);
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_container_left {
+  width: 30%;
+  background-color: rgb(44, 39, 39);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgb(185, 181, 181);
+}
+
+.form_container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_txtArea {
+  padding: 10px 15px;
+  margin-block-start: 40px;
+  border-radius: 4px;
+  resize: none;
+}
+
+.form_txtArea:focus {
+  outline: 1px solid rgb(167, 151, 167);
 }
 
 @keyframes App-logo-float {
